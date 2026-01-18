@@ -1,0 +1,26 @@
+=== Order Confirmation Email Template ===
+Subject: Your Order #{!HandsMen_Order__c.Name} Confirmed
+
+Dear {!HandsMen_Order__c.HandsMen_Customer__c},
+Your order #{!HandsMen_Order__c.Name} has been confirmed!
+Thank you for shopping with us.
+Best Regards,
+Sales Team
+
+=== Low Stock Alert Email Template ===
+Subject: Low Stock Alert: {!Inventory__c.HandsMen_Product__c}
+
+Dear Inventory Manager,
+This is to inform you that the stock for the following product is running low:
+Product Name: {!Inventory__c.HandsMen_Product__c}
+Current Stock Quantity: {!Inventory__c.Stock_Quantity__c}
+Please take the necessary steps to restock this item immediately.
+Best Regards,  
+Inventory Monitoring System
+
+=== Loyalty Points Email Template ===
+Subject: Welcome to your new Loyalty Status!
+
+Congratulations! You are now a {!HandsMen_Customer__c.Loyalty_Status__c} member and you are eligible for our Loyalty Rewards Program.
+Enjoy exclusive discounts, early access to offers, and special member benefits.
+Thank you for your continued Support.
